@@ -7,10 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+//文章汇总一些常用的c语言算法
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
         NSLog(@"Hello, World!");
     }
     return 0;
