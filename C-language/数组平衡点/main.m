@@ -60,3 +60,4 @@ int main(int argc, const char * argv[]) {
     printf("%p\n",m);
     return 0;
 }
+//我们也可以使用有返回值的方法，return改变后的数组，逻辑相同，但是返回值代码想对没有无返回值的代码简介。故不再赘述。
