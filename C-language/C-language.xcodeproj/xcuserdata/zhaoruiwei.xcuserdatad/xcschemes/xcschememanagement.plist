@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>冒泡排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>数组平衡点.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>70F5F88F1DE168BA00BD9C16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70F5F8CA1DE275BF00BD9C16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
