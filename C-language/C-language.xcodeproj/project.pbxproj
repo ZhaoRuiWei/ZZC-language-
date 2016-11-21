@@ -81,7 +81,7 @@
 			children = (
 				70F5F8841DE1670400BD9C16 /* C-language */,
 				70F5F8911DE168BA00BD9C16 /* 数组平衡点 */,
-				70F5F8CC1DE275BF00BD9C16 /* 冒泡排序 */,
+				70F5F8CC1DE275BF00BD9C16 /* 选择排序 */,
 				70F5F8831DE1670400BD9C16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,11 +112,12 @@
 			path = "数组平衡点";
 			sourceTree = "<group>";
 		};
-		70F5F8CC1DE275BF00BD9C16 /* 冒泡排序 */ = {
+		70F5F8CC1DE275BF00BD9C16 /* 选择排序 */ = {
 			isa = PBXGroup;
 			children = (
 				70F5F8CD1DE275BF00BD9C16 /* main.m */,
 			);
+			name = "选择排序";
 			path = "冒泡排序";
 			sourceTree = "<group>";
 		};
@@ -410,6 +411,7 @@
 				70F5F8D01DE275BF00BD9C16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
