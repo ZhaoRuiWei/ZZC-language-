@@ -1,11 +1,10 @@
 //
 //  main.m
-//  冒泡排序
+//  －选择排序
 //
 //  Created by 赵瑞玮 on 16/11/21.
 //  Copyright © 2016年 zhaoruiwei. All rights reserved.
 //
-
 #import <Foundation/Foundation.h>
 
 int main(int argc, const char * argv[]) {
@@ -28,7 +27,7 @@ int main(int argc, const char * argv[]) {
                 arr[i]=arr[i]-arr[j];
                 //进入一次循环纪录一次，计算效率。验证之前大设想
                 k++;
-                }
+            }
         }
     }
     printf("从最大到最小排序，依次为\n");

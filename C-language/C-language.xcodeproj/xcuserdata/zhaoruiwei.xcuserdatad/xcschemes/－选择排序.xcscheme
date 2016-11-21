@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "70F5F8811DE1670400BD9C16"
-               BuildableName = "C-language"
-               BlueprintName = "C-language"
+               BlueprintIdentifier = "70406FEA1DE2BEF9003C72D1"
+               BuildableName = "&#xff0d;&#x9009;&#x62e9;&#x6392;&#x5e8f;"
+               BlueprintName = "&#xff0d;&#x9009;&#x62e9;&#x6392;&#x5e8f;"
                ReferencedContainer = "container:C-language.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "70F5F8811DE1670400BD9C16"
-            BuildableName = "C-language"
-            BlueprintName = "C-language"
+            BlueprintIdentifier = "70406FEA1DE2BEF9003C72D1"
+            BuildableName = "&#xff0d;&#x9009;&#x62e9;&#x6392;&#x5e8f;"
+            BlueprintName = "&#xff0d;&#x9009;&#x62e9;&#x6392;&#x5e8f;"
             ReferencedContainer = "container:C-language.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "70F5F8811DE1670400BD9C16"
-            BuildableName = "C-language"
-            BlueprintName = "C-language"
+            BlueprintIdentifier = "70406FEA1DE2BEF9003C72D1"
+            BuildableName = "&#xff0d;&#x9009;&#x62e9;&#x6392;&#x5e8f;"
+            BlueprintName = "&#xff0d;&#x9009;&#x62e9;&#x6392;&#x5e8f;"
             ReferencedContainer = "container:C-language.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "70F5F8811DE1670400BD9C16"
-            BuildableName = "C-language"
-            BlueprintName = "C-language"
+            BlueprintIdentifier = "70406FEA1DE2BEF9003C72D1"
+            BuildableName = "&#xff0d;&#x9009;&#x62e9;&#x6392;&#x5e8f;"
+            BlueprintName = "&#xff0d;&#x9009;&#x62e9;&#x6392;&#x5e8f;"
             ReferencedContainer = "container:C-language.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
