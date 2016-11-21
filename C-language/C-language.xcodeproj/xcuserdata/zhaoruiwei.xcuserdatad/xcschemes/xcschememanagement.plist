@@ -28,6 +28,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>－冒泡排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>－选择排序.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -37,6 +42,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>70406FEA1DE2BEF9003C72D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70406FF51DE2BF78003C72D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -36,5 +36,6 @@ int main(int argc, const char * argv[]) {
     }
     printf("\n");
     printf("for循环遍历次数%d",k);
+    printf("\n");
     return 0;
 }
