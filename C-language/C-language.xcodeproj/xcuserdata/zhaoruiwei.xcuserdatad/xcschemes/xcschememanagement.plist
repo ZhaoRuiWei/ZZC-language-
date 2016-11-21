@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>改良的选择排序.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>数字拆解.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>数组平衡点.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,6 +32,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>70F5005B1DE28A81003A7773</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70F500661DE28F18003A7773</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>70F5F8811DE1670400BD9C16</key>
 		<dict>
 			<key>primary</key>
