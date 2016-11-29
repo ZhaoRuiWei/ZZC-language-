@@ -11,6 +11,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>冒泡排序－重复数字的效率处理.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>改良的选择排序.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,6 +32,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>数组近似截取.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>－冒泡排序.xcscheme</key>
 		<dict>
@@ -47,6 +57,11 @@
 			<true/>
 		</dict>
 		<key>70406FF51DE2BF78003C72D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>704070001DE2CB83003C72D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,6 +87,11 @@
 			<true/>
 		</dict>
 		<key>70F5F8CA1DE275BF00BD9C16</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70F684CB1DED44390081E713</key>
 		<dict>
 			<key>primary</key>
 			<true/>
