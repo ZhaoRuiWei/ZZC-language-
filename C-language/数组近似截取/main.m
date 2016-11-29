@@ -31,7 +31,7 @@ int main(int argc, const char * argv[]) {
     printf("符合要求的数组下标如下\n");
     int i,k,j,sum_t;
     //定义一个大点min值，后续取差值的绝对值使用
-    int min=100000;
+    int min=INT32_MAX;
     for(i=0;i<6;i++)
     {
         for(j=i+1;j<6;j++)

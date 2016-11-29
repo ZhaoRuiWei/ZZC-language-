@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>5+5数组近似截取.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>冒泡排序.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -92,6 +97,11 @@
 			<true/>
 		</dict>
 		<key>70F684CB1DED44390081E713</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70F684D61DED64D40081E713</key>
 		<dict>
 			<key>primary</key>
 			<true/>
