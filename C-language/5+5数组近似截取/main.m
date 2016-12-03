@@ -5,12 +5,16 @@
 //  Created by 赵瑞玮 on 16/11/29.
 //  Copyright © 2016年 zhaoruiwei. All rights reserved.
 //
-
+//原型是两个同类型数组，值任意，个数相同。希望调换数组元素，使这2个数组元素的和最为接近。
+// int arr[]={3,4,5};
+// int arr[]={0,1,2};
+//分析先求出所列2个原始数组的和sum，然后把这些元素存储在一个数组new中，然后便利新的数组，取出任意一半元素的和sum（t）,取出sum（t）和sum－sum（t）的绝对值，求出最小值之后，判断符合要求的new数组下标
+//本文档使用简单的3+3的数据测试，验证有效。需要注意的是，在取出一半数据的时候需要多重循环，此问题尚且没有更为简单的方法，另外测试新数组的元素个数需要录入真实数字。期待哪位仁兄这方面的改进。后续会重写一个5+5的数组进行验证
 #import <Foundation/Foundation.h>
 #include<math.h>
 int main(int argc, const char * argv[]) {
     int arr[] = {3,4,5,6,8};
-    int brr[] = {0,1,2,9,1111111};
+    int brr[] = {0,1,2,9,100};
     //求数组元素个数。
     int length= sizeof(arr)/sizeof(arr[0]);
     int sum = 0;
