@@ -14,7 +14,7 @@
 #include<math.h>
 int main(int argc, const char * argv[]) {
     int arr[] = {3,4,5};
-    int brr[] = {0,1,2};
+    int brr[] = {0,1,11};
     //求数组元素个数。
     int length= sizeof(arr)/sizeof(arr[0]);
     int sum = 0;
@@ -39,24 +39,28 @@ int main(int argc, const char * argv[]) {
             for(k=j+1;k<6;k++)
             {
                 sum_t = new[i]+new[j]+new[k];
-//                printf("new[%d]+new[%d]+new[%d]=%d\n",i,j,k,sum_t);//各种组合的列出
                 int x;
                 x=abs(sum_t-(sum-sum_t));
                 if(x<min){
                     //取出差值的最小绝对值
                     min=x;
                 }
-//                //值最小的符合要求代码此处书写存在问题，因为最每次都在变化，需要重新写一次循环体
-//                if(x==1){
-//                    printf("new拆分后的数组元素下标为[%d]+[%d]+[%d]\n",i,j,k);
-//                }
             }
-            for(int m=j+1;m<6;m++){
-                sum_t = new[i]+new[j]+new[m];
+            
+        }
+    }
+    for(i=0;i<6;i++)
+    {
+        for(j=i+1;j<6;j++)
+        {
+            for(k=j+1;k<6;k++)
+            {
+                sum_t = new[i]+new[j]+new[k];
                 int x;
                 x=abs(sum_t-(sum-sum_t));
-                if(x==min){
-                    printf("new拆分后的数组元素下标为[%d]+[%d]+[%d]\n",i,j,m);
+                if(x==min)
+                {
+                    printf("new拆分后的数组元素下标为[%d]+[%d]+[%d]\n",i,j,k);
                     num++;
                 }
             }

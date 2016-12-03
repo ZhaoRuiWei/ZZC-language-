@@ -14,7 +14,7 @@
 #include<math.h>
 int main(int argc, const char * argv[]) {
     int arr[] = {3,4,5,6,8};
-    int brr[] = {0,1,2,9,100};
+    int brr[] = {0,1,2,7,19};
     //求数组元素个数。
     int length= sizeof(arr)/sizeof(arr[0]);
     int sum = 0;
@@ -52,12 +52,25 @@ int main(int argc, const char * argv[]) {
                             min=x;
                         }
                     }
-                    for(int m=l+1;m<length*2;m++){
-                        sum_t = new[i]+new[j]+new[k]+new[l]+new[m];
+                }
+            }
+        }
+    }
+    for(i=0;i<length*2;i++)
+    {
+        for(j=i+1;j<length*2;j++)
+        {
+            for(k=j+1;k<length*2;k++)
+            {
+                for(l=k+1;l<length*2;l++)
+                {
+                    for(n=l+1;n<length*2;n++)
+                    {
+                        sum_t = new[i]+new[j]+new[k]+new[l]+new[n];
                         int x;
                         x=abs(sum_t-(sum-sum_t));
                         if(x==min){
-                            printf("new拆分后的数组元素下标为[%d]+[%d]+[%d]+[%d]+[%d]\n",i,j,k,l,m);
+                            printf("new拆分后的数组元素下标为[%d]+[%d]+[%d]+[%d]+[%d]\n",i,j,k,l,n);
                             num++;
                         }
                     }
