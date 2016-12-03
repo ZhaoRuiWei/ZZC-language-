@@ -56,6 +56,7 @@ int main(int argc, const char * argv[]) {
             }
         }
     }
+    //再次循环
     for(i=0;i<length*2;i++)
     {
         for(j=i+1;j<length*2;j++)
