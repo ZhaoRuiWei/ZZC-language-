@@ -14,7 +14,7 @@
 #include<math.h>
 int main(int argc, const char * argv[]) {
     int arr[] = {3,4,5,6,8};
-    int brr[] = {0,1,2,7,19};
+    int brr[] = {0,1,2,7,99};
     //求数组元素个数。
     int length= sizeof(arr)/sizeof(arr[0]);
     int sum = 0;
@@ -34,6 +34,7 @@ int main(int argc, const char * argv[]) {
     int i,k,j,l,n,sum_t;
     //定义一个大点min值，后续取差值的绝对值使用
     int min=INT32_MAX;
+    NSLog(@"%@",[NSDate date]);
     for(i=0;i<length*2;i++)
     {
         for(j=i+1;j<length*2;j++)
@@ -56,6 +57,7 @@ int main(int argc, const char * argv[]) {
             }
         }
     }
+    NSLog(@"%@",[NSDate date]);
     //再次循环
     for(i=0;i<length*2;i++)
     {
@@ -79,6 +81,7 @@ int main(int argc, const char * argv[]) {
             }
         }
     }
+    NSLog(@"%@",[NSDate date]);
     printf("符合要求的拆分数组一共有%d种",num/2);
     return 0;
 }

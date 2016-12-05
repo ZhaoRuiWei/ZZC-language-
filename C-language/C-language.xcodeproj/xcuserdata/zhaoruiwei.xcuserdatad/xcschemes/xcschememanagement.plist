@@ -9,6 +9,21 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>cc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>strcpy使用.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>zzz.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>冒泡排序.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -67,6 +82,21 @@
 			<true/>
 		</dict>
 		<key>704070001DE2CB83003C72D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70F32B971DF31FB10070AC67</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70F32BA21DF54F930070AC67</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70F32BAD1DF57B320070AC67</key>
 		<dict>
 			<key>primary</key>
 			<true/>
